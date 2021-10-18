@@ -49,3 +49,49 @@
 
 //jSnack4-----------------------------------------------------------------------
 
+// const verificaBtn = document.getElementById("verifica");
+// const inputName = document.getElementById("invitato");
+// const checkElement = document.getElementById("check");
+// const invitati = ["Gigi", "Mario", "Pierpaolo"];
+
+// verificaBtn.addEventListener(`click`, function () {
+//     const nameValue = inputName.value;
+//     for (let i = 0; i < invitati.length; i++) {
+//         if (nameValue === invitati[i]) {
+//             checkElement.innerHTML = `${nameValue} è iniviato`;
+//             return 0;
+
+//         } else {
+//             checkElement.innerHTML = `${nameValue} non è stato invitato`;
+//         }
+//     }
+// })
+
+
+//jSnack5-----------------------------------------------------------------------
+
+// const jsnack5 = document.querySelector("div.jSnack5");
+
+// const array = [""];
+// let j = 0;
+
+// for (let i = 0; i < 6; i++) {
+//     const number = parseInt(prompt(`Inserisci un numero -- ${i}`));
+
+//     if (number % 2 != 0) {
+//         array[j] = number;
+//         j = j + 1;
+//         console.log(array);
+//     }
+// }
+// const results = `<p> ${array} </p>`;
+// jsnack5.innerHTML = results;
+
+
+//jSnack5-----------------------------------------------------------------------
+
+
+// const jsnack6 = document.querySelector("div.jSnack6");
+
+// const number = parseInt(prompt(`Inserisci un numero -- ${i}`));
+
